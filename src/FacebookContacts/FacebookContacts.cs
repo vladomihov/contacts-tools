@@ -43,7 +43,7 @@ public class FacebookContacts
         
     }
 
-    public async Task ExportAsync()
+    public async Task ExportCosyAsync()
     {
         var contacts = await LoadContactsAsync();
 
